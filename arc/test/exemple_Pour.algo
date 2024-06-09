@@ -1,0 +1,9 @@
+PROGRAMME ()
+VAR i, j
+DEBUT 
+	i <- 2
+	POUR i = 2 FAIRE
+		i <- i + 1
+	FPOUR
+	RENVOYER i
+FIN

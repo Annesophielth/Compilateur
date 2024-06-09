@@ -1,0 +1,13 @@
+PROGRAMME ()
+VAR i, j
+DEBUT 
+	i <- 2
+	TQ i < 3 FAIRE
+		j <- 0
+		TQ j < 2 FAIRE
+			j <- j + 1
+		FTQ
+		i <- i + 1
+	FTQ
+	RENVOYER i
+FIN

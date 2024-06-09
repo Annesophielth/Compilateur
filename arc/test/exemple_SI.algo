@@ -1,0 +1,9 @@
+PROGRAMME ()
+VAR i
+DEBUT 
+	i <- 2
+	SI i = 2 ALORS
+		i <- i + 1
+	FSI
+	RENVOYER i
+FIN

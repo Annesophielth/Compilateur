@@ -1,0 +1,6 @@
+PROGRAMME ()
+VAR i
+DEBUT 
+	i <- 2
+	RENVOYER i
+FIN
